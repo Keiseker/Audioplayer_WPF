@@ -1,0 +1,103 @@
+﻿<Window x:Class="Lab6_AudioPlayer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lab6_AudioPlayer"
+        mc:Ignorable="d"
+        Title="Audio Player" Height="450" Width="600">
+    <Grid Background="#FF1A1A1D">
+        <ListBox x:Name="PlaylistListBox" Background="#FF4E4E50" Foreground="White" Margin="10,165,10,10" BorderBrush="#FF1A1A1D">
+            <ListBox.ItemContainerStyle>
+                <Style TargetType="ListBoxItem">
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="ListBoxItem">
+                                <ContentPresenter />
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </ListBox.ItemContainerStyle>
+        </ListBox>
+
+        <Button Click="AddFilesButton_Click" HorizontalAlignment="Left" Margin="30,22,0,0" VerticalAlignment="Top" Height="45" Width="45" FontSize="36" RenderTransformOrigin="0.81,0.647" BorderBrush="#FF1A1A1D" Foreground="#FF1A1A1D">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFC3073F"/>
+                    <GradientStop Color="#FF950740" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+            <Image Source="C:\Users\ADMIN\source\repos\Lab6_AudioPlayer\Lab6_AudioPlayer\png\folder.png"/>
+        </Button>
+        <Button Click="PreviousTrackButton_Click" HorizontalAlignment="Left" Margin="123,22,0,0" VerticalAlignment="Top" Height="45" Width="45" FontSize="36" RenderTransformOrigin="0.81,0.647" BorderBrush="#FF1A1A1D" Foreground="#FF1A1A1D">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFC3073F"/>
+                    <GradientStop Color="#FF950740" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+            <Image Source="C:\Users\ADMIN\source\repos\Lab6_AudioPlayer\Lab6_AudioPlayer\png\skipPrevious.png"/>
+    
+        </Button>
+        <Button Click="PlayButton_Click"  BorderBrush="#FF1A1A1D" Foreground="#FF1A1A1D" HorizontalAlignment="Left" Margin="196,22,0,0" VerticalAlignment="Top" Height="45" Width="45" FontSize="36" RenderTransformOrigin="0.81,0.647" >
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFC3073F"/>
+                    <GradientStop Color="#FF950740" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+            <Image Source="C:\Users\ADMIN\source\repos\Lab6_AudioPlayer\Lab6_AudioPlayer\png\play.png"/>
+        </Button>
+        <Button Click="PauseButton_Click" BorderBrush="#FF1A1A1D" Foreground="#FF1A1A1D" HorizontalAlignment="Left" Margin="267,22,0,0" VerticalAlignment="Top" Height="45" Width="45" FontSize="36" RenderTransformOrigin="0.81,0.647" >
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFC3073F"/>
+                    <GradientStop Color="#FF950740" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+            <Image Source="C:\Users\ADMIN\source\repos\Lab6_AudioPlayer\Lab6_AudioPlayer\png\pause.png"/>
+
+        </Button>
+        <Button Click="StopButton_Click" BorderBrush="#FF1A1A1D" Foreground="#FF1A1A1D" HorizontalAlignment="Left" Margin="335,22,0,0" VerticalAlignment="Top" Height="45" Width="45" FontSize="36" RenderTransformOrigin="0.81,0.647" >
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFC3073F"/>
+                    <GradientStop Color="#FF950740" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+            <Image Source="C:\Users\ADMIN\source\repos\Lab6_AudioPlayer\Lab6_AudioPlayer\png\stop.png"/>
+        </Button>
+        <Button Click="NextTrackButton_Click" BorderBrush="#FF1A1A1D" Foreground="#FF1A1A1D" HorizontalAlignment="Left" Margin="404,22,0,0" VerticalAlignment="Top" Height="45" Width="45" FontSize="36" RenderTransformOrigin="0.81,0.647" >
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFC3073F"/>
+                    <GradientStop Color="#FF950740" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+            <Image Source="C:\Users\ADMIN\source\repos\Lab6_AudioPlayer\Lab6_AudioPlayer\png\skipNext.png"/>
+
+        </Button>
+        <Button Click="SavePlaylistButton_Click" BorderBrush="#FF1A1A1D" Foreground="#FF1A1A1D" HorizontalAlignment="Left" Margin="196,94,0,0" VerticalAlignment="Top" Height="45" Width="45" FontSize="36" RenderTransformOrigin="0.81,0.647" >
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFC3073F"/>
+                    <GradientStop Color="#FF950740" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+            <Image Source="C:\Users\ADMIN\source\repos\Lab6_AudioPlayer\Lab6_AudioPlayer\png\playistAdsd.png"/>
+
+        </Button>
+        <Button HorizontalAlignment="Left" BorderBrush="#FF1A1A1D" Foreground="#FF1A1A1D" Margin="335,94,0,0" VerticalAlignment="Top" Height="45" Width="45" FontSize="36" RenderTransformOrigin="0.81,0.647" Click="OpenPlaylistButton_Click">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFC3073F"/>
+                    <GradientStop Color="#FF950740" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+            <Image Source="C:\Users\ADMIN\source\repos\Lab6_AudioPlayer\Lab6_AudioPlayer\png\edit.png"/>
+
+        </Button>
+
+    </Grid>
+</Window>

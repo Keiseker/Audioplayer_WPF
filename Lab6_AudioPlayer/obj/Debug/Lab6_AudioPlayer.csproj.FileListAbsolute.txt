@@ -1,0 +1,16 @@
+C:\Users\ADMIN\source\repos\Lab6_AudioPlayer\Lab6_AudioPlayer\obj\Debug\Lab6_AudioPlayer.csproj.AssemblyReference.cache
+C:\Users\ADMIN\source\repos\Lab6_AudioPlayer\Lab6_AudioPlayer\obj\Debug\Lab6_AudioPlayer.csproj.SuggestedBindingRedirects.cache
+C:\Users\ADMIN\source\repos\Lab6_AudioPlayer\Lab6_AudioPlayer\obj\Debug\MainWindow.g.cs
+C:\Users\ADMIN\source\repos\Lab6_AudioPlayer\Lab6_AudioPlayer\obj\Debug\App.g.cs
+C:\Users\ADMIN\source\repos\Lab6_AudioPlayer\Lab6_AudioPlayer\obj\Debug\Lab6_AudioPlayer_MarkupCompile.cache
+C:\Users\ADMIN\source\repos\Lab6_AudioPlayer\Lab6_AudioPlayer\obj\Debug\Lab6_AudioPlayer_MarkupCompile.lref
+C:\Users\ADMIN\source\repos\Lab6_AudioPlayer\Lab6_AudioPlayer\bin\Debug\Lab6_AudioPlayer.exe.config
+C:\Users\ADMIN\source\repos\Lab6_AudioPlayer\Lab6_AudioPlayer\bin\Debug\Lab6_AudioPlayer.exe
+C:\Users\ADMIN\source\repos\Lab6_AudioPlayer\Lab6_AudioPlayer\bin\Debug\Lab6_AudioPlayer.pdb
+C:\Users\ADMIN\source\repos\Lab6_AudioPlayer\Lab6_AudioPlayer\obj\Debug\MainWindow.baml
+C:\Users\ADMIN\source\repos\Lab6_AudioPlayer\Lab6_AudioPlayer\obj\Debug\Lab6_AudioPlayer.g.resources
+C:\Users\ADMIN\source\repos\Lab6_AudioPlayer\Lab6_AudioPlayer\obj\Debug\Lab6_AudioPlayer.Properties.Resources.resources
+C:\Users\ADMIN\source\repos\Lab6_AudioPlayer\Lab6_AudioPlayer\obj\Debug\Lab6_AudioPlayer.csproj.GenerateResource.cache
+C:\Users\ADMIN\source\repos\Lab6_AudioPlayer\Lab6_AudioPlayer\obj\Debug\Lab6_AudioPlayer.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\source\repos\Lab6_AudioPlayer\Lab6_AudioPlayer\obj\Debug\Lab6_AudioPlayer.exe
+C:\Users\ADMIN\source\repos\Lab6_AudioPlayer\Lab6_AudioPlayer\obj\Debug\Lab6_AudioPlayer.pdb
